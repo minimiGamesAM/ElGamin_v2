@@ -1,0 +1,186 @@
+<DatasmithUnrealScene>
+	<Version>1.0.3</Version>
+	<SDKVersion>4.24E0</SDKVersion>
+	<Host>Blender</Host>
+	<Application Vendor="Blender Foundation" ProductName="Blender" ProductVersion="3.1.2"/>
+	<User ID="arkal" OS="Windows 10"/>
+	<Light name="Light" layer="Collection" type="PointLight" enabled="1">
+		<SourceSize value="10.000000"/>
+		<Intensity value="1000.000000"/>
+		<AttenuationRadius value="3162.277660"/>
+		<IntensityUnits value="Lumens"/>
+		<Color usetemp="0" temperature="6500.0" R="1.000000" G="1.000000" B="1.000000"/>
+		<Transform tx="407.624542" ty="-100.545395" tz="590.386230" qw="0.144014" qx="-0.442790" qy="0.040919" qz="0.884037" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</Light>
+	<Camera name="Camera" layer="Collection">
+		<DepthOfField enabled="0"/>
+		<SensorWidth value="36.000000"/>
+		<SensorAspectRatio value="1.777778"/>
+		<FocusDistance value="1000.000000"/>
+		<FStop value="2.800000"/>
+		<FocalLength value="50.000000"/>
+		<Post/>
+		<Transform tx="296.846497" ty="266.766602" tz="51.438553" qw="0.348971" qx="0.058828" qy="0.021957" qz="-0.935028" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</Camera>
+	<Light name="Light_001" layer="Collection" type="PointLight" enabled="1">
+		<SourceSize value="10.000000"/>
+		<Intensity value="1000.000000"/>
+		<AttenuationRadius value="3162.277660"/>
+		<IntensityUnits value="Lumens"/>
+		<Color usetemp="0" temperature="6500.0" R="1.000000" G="1.000000" B="1.000000"/>
+		<Transform tx="493.617767" ty="-174.645493" tz="500.662994" qw="0.160465" qx="-0.363695" qy="-0.029906" qz="0.917105" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</Light>
+	<ActorMesh name="Plane_002" layer="Collection">
+		<mesh name="Plane_002"/>
+		<Transform tx="-16.518311" ty="3.817976" tz="7.757852" qw="0.707107" qx="0.000000" qy="0.707107" qz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</ActorMesh>
+	<ActorMesh name="Plane_003" layer="Collection">
+		<mesh name="Plane_001"/>
+		<Transform tx="-16.518311" ty="-247.925186" tz="7.757852" qw="0.707107" qx="0.000000" qy="0.707107" qz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</ActorMesh>
+	<ActorMesh name="Plane_004" layer="Collection">
+		<mesh name="Plane_005"/>
+		<Transform tx="-15.423022" ty="-498.637024" tz="8.344103" qw="0.707107" qx="0.000000" qy="0.707107" qz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</ActorMesh>
+	<ActorMesh name="Plane_005" layer="Collection">
+		<mesh name="Plane_007"/>
+		<Transform tx="-16.518311" ty="256.408203" tz="8.286283" qw="0.707107" qx="0.000000" qy="0.707107" qz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</ActorMesh>
+	<ActorMesh name="Plane_006" layer="Collection">
+		<mesh name="Plane_008"/>
+		<Transform tx="-15.556327" ty="-759.291687" tz="8.090201" qw="0.707107" qx="0.000000" qy="-0.707107" qz="0.000000" sx="-1.000000" sy="-1.000000" sz="-1.000000"/>
+	</ActorMesh>
+	<ActorMesh name="Plane_007" layer="Collection">
+		<mesh name="Plane_009"/>
+		<Transform tx="-16.518311" ty="-246.607452" tz="244.940948" qw="0.707107" qx="0.000000" qy="0.707107" qz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+	</ActorMesh>
+	<StaticMesh label="Plane_002" name="Plane_002">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_002.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="e85944e5a161594f4e41a918481c96b6"/>
+	</StaticMesh>
+	<StaticMesh label="Plane_001" name="Plane_001">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_001.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="e4de2a62aa818ff3f9b6e379739876f1"/>
+	</StaticMesh>
+	<StaticMesh label="Plane_005" name="Plane_005">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_005.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="5acddca2af5c8df4eb5fa0ec7bb03e42"/>
+	</StaticMesh>
+	<StaticMesh label="Plane_007" name="Plane_007">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_007.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="a85a7a006059d45fbce7cce14e48c78b"/>
+	</StaticMesh>
+	<StaticMesh label="Plane_008" name="Plane_008">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_008.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="7f8a4fb549890d859e50db15b9c7bc3f"/>
+	</StaticMesh>
+	<StaticMesh label="Plane_009" name="Plane_009">
+		<Material id="0" name="frame"/>
+		<Material id="1" name="Perciana"/>
+		<Material id="2" name="wall_001"/>
+		<Material id="3" name="Glass"/>
+		<file path="house_3_v1_Assets/Plane_009.udsmesh"/>
+		<LightmapUV value="-1"/>
+		<Hash value="a421ac78d025459a4909f146168bde55"/>
+	</StaticMesh>
+	<UEPbrMaterial name="frame">
+		<Expressions>
+			<Color constant="(R=0.001299,G=0.001011,B=0.004672,A=1.000000)"/>
+			<Scalar constant="0.000000"/>
+			<Scalar constant="0.500000"/>
+			<Scalar constant="0.500000"/>
+		</Expressions>
+		<BaseColor expression="0" OutputIndex="0"/>
+		<Metallic expression="1" OutputIndex="0"/>
+		<Roughness expression="2" OutputIndex="0"/>
+		<Specular expression="3" OutputIndex="0"/>
+	</UEPbrMaterial>
+	<UEPbrMaterial name="Perciana">
+		<Expressions>
+			<Texture PathName="RBG_Bulilding_B2v3_png"/>
+			<Scalar constant="0.000000"/>
+			<Scalar constant="0.500000"/>
+			<Scalar constant="0.500000"/>
+			<Texture PathName="Normal_Bulilding_B2v3_png"/>
+		</Expressions>
+		<BaseColor expression="0" OutputIndex="0"/>
+		<Metallic expression="1" OutputIndex="0"/>
+		<Roughness expression="2" OutputIndex="0"/>
+		<Specular expression="3" OutputIndex="0"/>
+		<Normal expression="4" OutputIndex="0"/>
+	</UEPbrMaterial>
+	<UEPbrMaterial name="wall_001">
+		<Expressions>
+			<Texture PathName="TexturesCom_Wall_BrickIndustrial6_4x4_1K_albedo_tif"/>
+			<Scalar constant="0.000000"/>
+			<Scalar constant="0.500000"/>
+			<Scalar constant="0.500000"/>
+			<Texture PathName="TexturesCom_Wall_BrickIndustrial6_4x4_1K_normal_tif"/>
+			<Scalar constant="0.600000"/>
+			<FunctionCall Function="/DatasmithBlenderContent/MaterialFunctions/NormalStrength">
+				<0 expression="4" OutputIndex="0"/>
+				<1 expression="5" OutputIndex="0"/>
+			</FunctionCall>
+		</Expressions>
+		<BaseColor expression="0" OutputIndex="0"/>
+		<Metallic expression="1" OutputIndex="0"/>
+		<Roughness expression="2" OutputIndex="0"/>
+		<Specular expression="3" OutputIndex="0"/>
+		<Normal expression="6"/>
+	</UEPbrMaterial>
+	<UEPbrMaterial name="Glass">
+		<Expressions>
+			<Color constant="(R=0.800000,G=0.800000,B=0.800000,A=1.000000)"/>
+			<Scalar constant="0.000000"/>
+			<Scalar constant="0.000000"/>
+			<Scalar constant="0.500000"/>
+			<Scalar constant="1.000000"/>
+			<OneMinus>
+				<0 expression="4" OutputIndex="0"/>
+			</OneMinus>
+		</Expressions>
+		<BaseColor expression="0" OutputIndex="0"/>
+		<Metallic expression="1" OutputIndex="0"/>
+		<Roughness expression="2" OutputIndex="0"/>
+		<Specular expression="3" OutputIndex="0"/>
+		<Opacity expression="5"/>
+	</UEPbrMaterial>
+	<Texture name="RBG_Bulilding_B2v3_png" file="house_3_v1_Assets\RBG_Bulilding_B2v3_png.png" rgbcurve="0.0" srgb="1" texturemode="0" texturefilter="3">
+		<Hash value="d1470658219d1b1a8e4fde466bea478a"/>
+	</Texture>
+	<Texture name="Normal_Bulilding_B2v3_png" file="house_3_v1_Assets\Normal_Bulilding_B2v3_png.png" rgbcurve="0.0" srgb="2" texturemode="3" texturefilter="3">
+		<Hash value="be19e7fa6a5303119f9fb09dc5f3bcfd"/>
+	</Texture>
+	<Texture name="TexturesCom_Wall_BrickIndustrial6_4x4_1K_albedo_tif" file="house_3_v1_Assets\TexturesCom_Wall_BrickIndustrial6_4x4_1K_albedo_tif.png" rgbcurve="0.0" srgb="1" texturemode="0" texturefilter="3">
+		<Hash value="a9403b78c78c672a34c7677eb73479f8"/>
+	</Texture>
+	<Texture name="TexturesCom_Wall_BrickIndustrial6_4x4_1K_normal_tif" file="house_3_v1_Assets\TexturesCom_Wall_BrickIndustrial6_4x4_1K_normal_tif.png" rgbcurve="0.0" srgb="2" texturemode="3" texturefilter="3">
+		<Hash value="10103529d166495e59cef153b49d5a31"/>
+	</Texture>
+	<Export Duration="0.5629999999982829"/>
+</DatasmithUnrealScene>
